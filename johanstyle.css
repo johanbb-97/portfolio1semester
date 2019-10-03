@@ -1,0 +1,445 @@
+body {
+    background-image: url(pool-water-background-1466530457BRW.jpg);
+    background-size:cover;
+}
+.mothership {
+    text-align: center;
+}
+.bar {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 1% 20%;
+    
+}
+.wayback {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    text-align: center;
+}
+.wayback a {
+    color: deeppink;
+    justify-content: center;
+    background-image: linear-gradient(white, lightblue);
+    margin:1px;
+    padding: 2px 5px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+.wayback a:hover {
+    background-image: linear-gradient(dodgerblue, lightblue);
+}
+h1 {
+    font-family: silom;
+    color: #ff46b1;
+    justify-content: center;
+    display: flex;
+    font-size: 4em;
+    margin: 0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: azure;
+}
+h2 {
+    font-family: silom;
+    color: #ff46b1;
+    justify-content: center;
+    display: flex;
+    font-size: 22px;;
+    margin: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: azure
+}
+p {
+    font-family: 'Slabo 27px', serif;
+}
+a {
+    font-family: silom, sans-serif;
+}
+.logo {
+    margin-bottom: 1px;
+}
+.kontakt {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1px;
+    padding: 2%;
+    width: 46%;
+    text-align: center;
+}
+.kontakt a {
+    color: azure;
+    justify-content: center;
+    background-image: linear-gradient(#ff56b1, deeppink);
+    margin:1px;
+    padding: 5px 9px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.kontakt a:hover {
+    background-image: linear-gradient(white, #ff56b1);
+    color: deeppink;
+}
+.info {
+    background-image: linear-gradient(white, lightblue);
+    display: flex;
+    padding: 0%;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.info p {
+    width: 76%;
+    margin: 20px;
+    font-size: 1.1em;
+}
+.sunset {
+    width: 12%;
+    margin: 8px;
+    border-radius: 10px;
+}
+.info2 {
+    background-image: linear-gradient(white, lightblue);
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 1%;
+    width: 39%;
+    text-align: center;
+    border-radius: 15px;
+}
+.info2 p {
+    font-family: silom;
+    color:#292929;
+}
+.galleri {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 2%;
+    width: 60%;
+    justify-content: space-around;
+}
+.galleri a {
+    background-image: linear-gradient(#ff56b1, deeppink);
+    margin-top: 1px;
+    padding: 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: azure;
+}
+.galleri a:hover {
+    color: deeppink;
+    background-image: linear-gradient(azure,#ff56b1);
+}
+.info3 {
+     display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 2%;
+    width: 60%;
+    justify-content: space-around;
+}
+.info3 a {
+    background-image: linear-gradient(#ff56b1, deeppink);
+    margin-top: 1px;
+    padding: 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: azure;
+}
+.info3 a:hover {
+    color: deeppink;
+    background-image: linear-gradient(azure,#ff56b1);
+}
+/*responsiv info1*/
+@media screen and (max-width: 1066px) {
+    .info p {
+        width: 50%;
+    }
+    .sunset {
+        width: 20%;
+    }
+    }
+    .galleri a {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .info3 a {
+        padding: 20px;
+        font-size: 20px;
+    }
+} 
+@media screen and (max-width: 925px) {
+    .info p {
+        width: 30%;
+    }
+    .sunset {
+        width: 30%;
+    }
+} 
+@media screen and (max-width: 765px) {
+    .info p {
+        width: 100%;
+    }
+    .sunset {
+        width: 0;
+    }
+} 
+@media screen and (max-width: 500px) {
+    .info p {
+        width: 100%;
+    }
+    .sunset {
+        width: 0;
+    }
+    .info2 {
+        width: 70%;
+    }
+    .galleri a {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .info3 a {
+        padding: 20px;
+        font-size: 20px;
+    }
+} 
+/*Galleri*/
+.info-galleri {
+    background-image: linear-gradient(white, lightblue););
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 1%;
+    width: 39%;
+    text-align: center;
+    border-radius: 15px;
+}
+.info-galleri p {
+    font-family: silom, sans-serif;
+    color:#292929;
+}
+.covercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.covercontainer a:hover {
+    color: aliceblue;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 700px) {
+    .cover {
+        width: 46%;
+    }
+}
+@media screen and (min-width: 1080px) {
+    .cover {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .info-galleri {
+        width: 76%;
+    }
+}
+/*Videoer*/
+.video-info {
+    background-image: linear-gradient(lightblue, white);
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 1%;
+    width: 39%;
+    text-align:center;
+    border-radius: 15px;
+/*
+    background-image: linear-gradient(white, lightblue);
+    padding: 1%;
+    width: 400px;
+    margin: 0 10%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+*/
+}
+.video-info p{
+    font-family: silom;
+    color: #292929;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.video-link {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(azure,#ff56b1);
+    margin-bottom: 12px;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+    text-align:justify;
+}
+.video-link p {
+    margin: 3% 5% 1% 5%; 
+}
+.video-link img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5%;
+}
+@media screen and (min-width: 700px) {
+    .video-link {
+        width: 46%;
+    }
+}
+@media screen and (min-width: 1080px) {
+    .video-link {
+        width: 33%;
+    }
+}
+/*Dias*/
+.tilbage {
+    display: flex;
+    width: 10%;
+}
+.tilbage a {
+    color: deeppink;
+    justify-content: center;
+    background-image: linear-gradient(white, lightblue);
+    margin:1px;
+    padding: 2px 5px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+.tilbage a:hover {
+    background-image: linear-gradient(dodgerblue, lightblue);
+}
+/*Kontakt*/
+.kontakt-info {
+    background-image: linear-gradient(lightblue, white);
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 1%;
+    width: 39%;
+    text-align:center;
+    border-radius: 15px;
+/*
+    background-image: linear-gradient(white, lightblue);
+    display: flex;
+    padding: 5px;
+    width: 50%;
+    margin: 0 10%;
+    margin-top: 10px;
+    border-radius: 15px;
+*/
+}
+.kontakt-info p {
+    line-height: 30px;
+    font-family: 'Slabo 27px', serif;
+}
+.dininfo {
+    width:70%;
+    display: block;
+    margin: 0 30%;
+}
+.dininfo p {
+    background-image: linear-gradient(azure,#ff56b1);
+    border-radius: 10px;
+    padding: 3px;
+}
+.comments {
+    border-radius: 10px;
+    width: 20px;
+}
+@media screen and (min-width: 1080px) {
+    .dininfo {
+    width: 15px;
+    }
+}
+@media screen and (min-width: 770px) {
+    .dininfo {
+    width: 10px;
+    }
+}
+@media screen and (min-width: 500px) {
+    .dininfo {
+    width: 25%;
+    }
+}
+/*Infoside*/
+.info-container {
+    display: flex;
+}
+.infobox1 {
+    background-image: linear-gradient(white, lightblue);
+    display: flex;
+    padding: 1%;
+    width: 50%;
+    margin: 5%;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: left;
+    
+/*
+    background-image: linear-gradient(white, lightblue);
+    display: flex;
+    padding: 2%;
+    width: 80%;
+    margin: 2%;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 60%
+*/
+}
+.infobox1 p{
+    line-height: 2em;
+    font-size: 18px;
+}
+.photobox {
+    width: 50%;
+    margin: 5%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.photobox img {
+    width: 100%;
+    border-radius: 15px;
+}
+@media screen and (max-width: 700px){
+    .infobox1 {
+    width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .infobox1 {
+    width: 100%;
+    }
+     .infobox1 p{
+         font-size: 1em;
+    }}
+
+ @media screen and (min-width: 950px){
+    .infobox1 {
+    width: 100%;
+     }
+     .infobox1 p{
+         font-size: 1.7em;
+     }
+}
